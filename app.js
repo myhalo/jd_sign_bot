@@ -14,6 +14,8 @@ const serverJ = process.env.PUSH_KEY;
 const DualKey = process.env.JD_COOKIE_2;
 const PUSH_METHOD= process.env.PUSH_METHOD;
 const PUSH_KEY= process.env.PUSH_KEY;
+const PUSH_SECRET="";
+const PUSH_ADDRESS="";
 
 // 下载文件
 async function downFile () {
