@@ -52,8 +52,8 @@ async function sendNotify () {
     text: content,
     method: PUSH_METHOD,
     key: PUSH_KEY || serverJ,
-    secret: PUSH_SECRET,
-    address: PUSH_ADDRESS
+    //secret: PUSH_SECRET,
+    //address: PUSH_ADDRESS
   });
   await sendNotify("" + ` ${res2} ` + ` ${res} ` + new Date().toLocaleDateString(), content);
 }
